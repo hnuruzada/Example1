@@ -1,0 +1,28 @@
+
+Start
+Input point
+if(point>=0 && point<=100)
+   if(point>=91 && point<=100)
+            print "A"
+   else if(point>=81 && point<=90)
+            print "B"
+   else if(point>=71 && point<=80)
+            print "C"
+   else if(point>=61 && point<=70)
+            print "D"
+   else if(point>=51 && point<=60)
+            print "E"
+   else print "fail the course"
+else print "your point number is wrong!"
+End
+-----------------------------------------
+Basla
+Puani gir
+Eger Puan 0 ile 100 arasinda deyilse sonlandir,ise
+Puan 91 ile 100 arasindadirsa "A" yazdir
+Puan 81 ile 90 arasindadirsa "B" yazdir 
+Puan 71 ile 80 arasindadirsa "C" yazdir
+Puan 61 ile 70 arasindadirsa "D" yazdir
+Puan 51 ile 60 arasindadirsa "E" yazdir
+Puan 51den kicikse "kesildiniz" yazdir
+Son
